@@ -76,5 +76,15 @@ layout: default
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
+    {% comment %}YWY added the rotating earth to track website visiting record{% endcomment %}
+    <table style="width:25%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+        <td style="padding:25px;width:25%;vertical-align:middle">
+          <p style="text-align:center;font-size:small;">
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=mSC7JSfFElZ15Aw1LP1gVLWxgnwRm80PnEUGga3sCqs"></script>    </p>
+        </td>
+      </tr>
+    </tbody></table>
   </article>
 </div>
